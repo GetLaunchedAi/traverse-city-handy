@@ -1,0 +1,327 @@
+---
+layout: "base.html"
+description: "Halford Bookkeeping"
+metaTitle: "Halford Bookkeeping"
+tagTitle: "Halford Bookkeeping"
+preloadImg: "/images/landing.png"
+preloadCSS: "/css/local.css"
+permalink: "/"
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+
+<!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero">
+  <video autoplay muted loop playsinline class="cs-picture">
+    <source
+      src="/images/hero_vid.mp4"
+      type="video/mp4"
+      autoplay
+      muted
+      loop
+      playsinline
+    />
+    Your browser does not support the video tag.
+  </video>
+  <div class="cs-overlay"></div>
+  <div class="cs-container">
+    <div class="cs-flex-group">
+      <span class="cs-topper">Accuracy. Clarity. Peace of Mind</span>
+      <h1 class="cs-title">
+        Take Control of Your Finances with Expert Bookkeeping
+      </h1>
+      <p class="cs-text">
+        At Halford Bookkeeping, we deliver accurate, organized, and stress-free
+        bookkeeping solutions designed to help your business thrive. From
+        financial clean-up to QuickBooks management and payroll services, we
+        ensure your numbers are precise, your records are clear, and your time
+        is freed to focus on what matters most.
+      </p>
+      <a href="/bookkeeping/" class="cs-button-solid">Explore Services</a>
+      <a href="/about/" class="cs-button-transparent">
+        <img
+          class="cs-img"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg"
+          alt="play icon"
+          width="17"
+          height="17"
+        />
+        Learn More
+      </a>
+    </div>
+  </div>
+
+  <!-- Background Image -->
+  <!-- {% image './src/images/landing.png', 'landing', 'cs-picture', 'eager', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%} -->
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services" class="services">
+  <!-- Get Icons From flaticon.com -->
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/svgs/service_1.svg"
+        alt="bookkeeping icon"
+        width="48"
+        height="48"
+      />
+    </picture>
+    <h2>Bookkeeping</h2>
+    <p>
+      Keep your business on track with accurate, organized bookkeeping—ensuring
+      clarity, compliance, stability, and financial confidence always.
+    </p>
+  </div>
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/svgs/service_2.svg"
+        alt="financial cleanup icon"
+        width="48"
+        height="48"
+      />
+    </picture>
+    <h2>Financial Clean-Up</h2>
+    <p>
+      Restore order quickly with detailed financial clean-up that improves
+      accuracy, saves time, and supports informed decisions daily.
+    </p>
+  </div>
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/svgs/service_3.svg"
+        alt="quickbooks icon"
+        width="48"
+        height="48"
+      />
+    </picture>
+    <h2>QuickBooks & Payroll</h2>
+    <p>
+      Simplify business finances through expert QuickBooks and payroll setup,
+      tracking, and reporting for seamless, stress-free operations.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs">
+  <div class="cs-container">
+    <!-- Left Image Section -->
+    <div class="cs-left">
+      {% image './src/images/about_img_0.png', 'flooring', 'cs-picture
+      cs-picture1', 'lazy'%} {% image './src/images/about_img_1.png',
+      'flooring', 'cs-picture cs-picture2', 'lazy'%}
+    </div>
+    <!-- Right Content Section-->
+    <!-- EDIT -->
+    <div class="cs-right">
+      <span class="cs-topper">About Us</span>
+      <h2 class="cs-title">About Halford Bookkeeping</h2>
+      <p class="cs-text">
+        At Halford Bookkeeping, we’re dedicated to delivering accurate,
+        reliable, and stress-free financial management for small businesses. By
+        combining proven processes with personalized attention, we help our
+        clients save time, stay compliant, and gain clarity over their
+        numbers—without the confusion or overwhelm.
+      </p>
+      <p class="cs-text">
+        We believe financial accuracy is the foundation for smart
+        decision-making. That’s why every service—whether bookkeeping, financial
+        clean-up, QuickBooks management, or payroll—is handled directly by us,
+        ensuring precision, accountability, and results you can trust. From
+        catching up months of records to maintaining day-to-day accounts, we’re
+        here to make your finances work for you.
+      </p>
+      <div class="cs-flex-group">
+        <p class="cs-flex-p">
+          My name is [Owner Name], founder of Halford Bookkeeping. With over 30
+          years of experience in high-pressure engineering roles, I’ve built a
+          career on attention to detail, problem-solving, and staying organized
+          under tight deadlines. Now, I bring those same skills to managing your
+          books—so you can focus on growing your business with confidence.
+        </p>
+        <span class="cs-name">[Owner Name]</span>
+        <span class="cs-job">Owner</span>
+        <img
+          class="cs-quote-icon"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
+          alt="quote icon"
+          width="136"
+          height="77"
+        />
+      </div>
+      <a href="/about" class="button-solid">More About Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--            Extra Content To Rank             -->
+<!-- ============================================ -->
+
+<section id="sbs-r">
+  <div class="cs-container">
+    <!-- Left Image Section -->
+    <div class="cs-left">
+      {% image './src/images/featured_img_0.png', 'flooring', 'cs-picture
+      cs-picture1', 'lazy'%} {% image './src/images/featured_img_1.png',
+      'flooring', 'cs-picture cs-picture2', 'lazy'%}
+    </div>
+    <!-- Right Content Section-->
+    <div class="cs-right">
+      <span class="cs-topper">SEO Ranking</span>
+      <h2 class="cs-title">Halford Bookkeeping</h2>
+      <p class="cs-text">
+        At Halford Bookkeeping, we provide professional bookkeeping, financial
+        clean-up, QuickBooks management, and payroll services designed to help
+        small businesses stay organized, compliant, and financially healthy. Our
+        goal is to give you complete clarity over your numbers so you can make
+        confident business decisions and focus on growth.
+      </p>
+      <p class="cs-text">
+        With over 30 years of experience in detail-driven and high-pressure
+        roles, we bring precision, accountability, and a personal touch to every
+        client relationship. Whether you need to clean up months of backlog,
+        maintain day-to-day records, or streamline payroll, our services are
+        tailored to fit your exact needs.
+        <br /><br />
+        We work with entrepreneurs, contractors, service providers, and small
+        business owners across multiple industries. Every account is handled
+        with care to ensure accurate reporting, timely delivery, and financial
+        systems that perform in real-world business conditions. From QuickBooks
+        setup to full-service bookkeeping, Halford Bookkeeping offers reliable
+        solutions that keep your finances on track.
+        <br /><br />
+        Protect your business from costly errors, improve efficiency, and gain
+        peace of mind — partner with Halford Bookkeeping for expert financial
+        management and personalized service.
+      </p>
+      <a href="/bookkeeping/" class="button-solid">
+        Learn More About Our Services →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews">
+  <div class="cs-container">
+    <span class="cs-topper">Our Reviews</span>
+    <h2 class="cs-title">Words From Our Clients</h2>
+    <p class="cs-text">
+      We take pride in delivering accurate bookkeeping services and exceptional
+      client care — and our clients agree. From financial clean-up and
+      QuickBooks management to payroll solutions, we’ve helped entrepreneurs,
+      contractors, and small businesses gain clarity, save time, and reduce
+      stress. Here’s what clients are saying about working with Halford
+      Bookkeeping.
+    </p>
+    <ul class="cs-card-group">
+      <!-- Review 1 -->
+      <li class="cs-item">
+        <p class="cs-item-p">
+          Halford Bookkeeping was incredible to work with! They organized my
+          messy books in record time, and the accuracy is outstanding. Clear
+          reports, fair pricing, and truly helpful advice from start to finish.
+        </p>
+        <span class="cs-reviewer">
+          Sarah L.
+          <span class="cs-desc">Client</span>
+        </span>
+        <img
+          class="cs-item-stars"
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
+          alt="stars"
+          width="96"
+          height="16"
+        />
+      </li>
+      <!-- Review 2 -->
+      <li class="cs-item">
+        <p class="cs-item-p">
+          I couldn’t be happier with my updated financial records! The team made
+          the process easy, offered great recommendations, and delivered on
+          time. Excellent customer service and high-quality work — highly
+          recommended.
+        </p>
+        <span class="cs-reviewer">
+          James P.
+          <span class="cs-desc">Client</span>
+        </span>
+        <img
+          class="cs-item-stars"
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
+          alt="stars"
+          width="96"
+          height="16"
+        />
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">
+      Get It Done <br />
+      With Us Today
+    </h2>
+    <p>
+      Big ideas start with a simple conversation. Reach out today and let’s get
+      your project on the books.
+    </p>
+    <a href="/contact/" class="button-solid">Contact Us</a>
+  </div>
+  {% image './src/images/final_home_img.png', 'meeting in an office', '', 'lazy',
+  '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>

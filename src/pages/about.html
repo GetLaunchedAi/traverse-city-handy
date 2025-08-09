@@ -1,0 +1,182 @@
+---
+layout: "base.html"
+description: "Discover Halford Bookkeeping’s trusted accounting services, including bookkeeping, payroll, QuickBooks setup, and financial cleanup for businesses across the Midwest."
+metaTitle: "About Halford Bookkeeping"
+tagTitle: "About"
+preloadImg: "/images/landing.png"
+preloadCSS: "/css/about.css"
+permalink: "about/"
+eleventyNavigation:
+  key: About Us
+  order: 300
+---
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+  <h1 id="home-h">About Us</h1>
+  {% image './src/images/landing.png', 'Halford Bookkeeping office', '',
+  'lazy', '(max-width: 850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs">
+  <div class="cs-container">
+    <!-- Left Image Section -->
+    <div class="cs-left">
+      {% image './src/images/about_img_0.png', 'Halford Bookkeeping team',
+      'cs-picture cs-picture1', 'lazy'%} {% image
+      './src/images/about_img_1.png', 'accounting workspace', 'cs-picture
+      cs-picture2', 'lazy'%}
+    </div>
+    <!-- Right Content Section-->
+    <div class="cs-right">
+      <span class="cs-topper">About Us</span>
+      <h2 class="cs-title">About Halford Bookkeeping</h2>
+      <p class="cs-text">
+        Halford Bookkeeping is a trusted, family-run firm dedicated to accurate
+        financial management and personalized service. We specialize in
+        bookkeeping, QuickBooks setup, payroll processing, and financial cleanup
+        for small businesses across the Midwest.
+      </p>
+      <p class="cs-text">
+        We simplify complex accounting tasks, ensuring businesses stay
+        compliant, organized, and ready for growth. By working directly with
+        each client, we deliver accurate records, timely reporting, and tailored
+        solutions that keep finances running smoothly.
+      </p>
+
+      <div class="cs-flex-group">
+        <p class="cs-flex-p">
+          I’m [Owner Name], founder of Halford Bookkeeping. My mission from
+          the beginning has been to offer business owners honest pricing,
+          dependable service, and the peace of mind that comes with having their
+          books in expert hands.
+        </p>
+        <span class="cs-name">[Owner Name]</span>
+        <span class="cs-job">Founder & CEO</span>
+        <img
+          class="cs-quote-icon"
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
+          alt="quote icon"
+          width="136"
+          height="77"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                    FAQ                       -->
+<!-- ============================================ -->
+
+<section id="faq-326">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">FAQs</span>
+      <h2 class="cs-title">Frequently Asked Questions</h2>
+    </div>
+    <div class="cs-flex-group">
+      <ul class="cs-faq-group">
+        <li class="cs-faq-item active">
+          <button class="cs-button">
+            <span class="cs-button-text">
+              What bookkeeping services do you provide?
+            </span>
+          </button>
+          <p class="cs-item-p">
+            We offer complete bookkeeping solutions including transaction
+            recording, bank reconciliation, expense tracking, financial
+            reporting, and tax preparation support.
+          </p>
+        </li>
+        <li class="cs-faq-item">
+          <button class="cs-button">
+            <span class="cs-button-text">
+              Do you handle payroll processing?
+            </span>
+          </button>
+          <p class="cs-item-p">
+            Yes. We provide full payroll management, including employee
+            payments, tax withholdings, and compliance with federal and state
+            regulations.
+          </p>
+        </li>
+        <li class="cs-faq-item">
+          <button class="cs-button">
+            <span class="cs-button-text">
+              Can you help me set up QuickBooks?
+            </span>
+          </button>
+          <p class="cs-item-p">
+            Absolutely. We set up QuickBooks, customize chart of accounts,
+            integrate payment systems, and train business owners to manage their
+            books efficiently.
+          </p>
+        </li>
+        <li class="cs-faq-item">
+          <button class="cs-button">
+            <span class="cs-button-text">
+              Do you work with startups and small businesses?
+            </span>
+          </button>
+          <p class="cs-item-p">
+            Yes. We work closely with new and growing businesses, providing
+            affordable accounting solutions and guidance to establish strong
+            financial foundations.
+          </p>
+        </li>
+        <li class="cs-faq-item">
+          <button class="cs-button">
+            <span class="cs-button-text">
+              What makes Halford Bookkeeping different?
+            </span>
+          </button>
+          <p class="cs-item-p">
+            We’re committed to accuracy, transparency, and personalized service.
+            Every account is handled by our in-house team, ensuring consistent
+            quality and trusted results.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<script>
+  const faqItems = Array.from(document.querySelectorAll(".cs-faq-item"));
+  for (const item of faqItems) {
+    const onClick = () => {
+      item.classList.toggle("active");
+    };
+    item.addEventListener("click", onClick);
+  }
+</script>
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">
+      Get It Done <br />
+      With Us Today
+    </h2>
+    <p>
+      Accurate books lead to smarter business decisions. Contact Halford
+      Bookkeeping today and let’s get your finances on track.
+    </p>
+    <a href="/contact/" class="button-solid">Free Consultation</a>
+  </div>
+  {% image './src/images/final_home_img.png', 'Halford Bookkeeping workspace',
+  '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920'%}
+</section>

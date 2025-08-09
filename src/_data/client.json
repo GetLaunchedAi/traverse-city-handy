@@ -1,0 +1,15 @@
+{
+  "name": "Halford Bookkeeping",
+  "email": "halford-bookkeeping@outlook.com",
+  "phone": "248-778-8130",
+  "phoneFormatted": "(248) 778-8130",
+  "address": {
+    "lineOne": "First Address Line",
+    "lineTwo": "Second Address Line, If Needed",
+    "city": "",
+    "county": "",
+    "postcode": "",
+    "mapLink": "https://maps.app.goo.gl/ZhePbTjskM2YksQh6"
+  },
+  "domain": "www.website.com"
+}
