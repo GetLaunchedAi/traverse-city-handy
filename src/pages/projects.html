@@ -1,0 +1,87 @@
+---
+layout: "base.html"
+description: "More Power Electric provides expert electrical system repair and installation across Michigan. Residential, commercial, and industrial services including standby power systems, LED conversions, and lighting repairs."
+metaTitle: "More Power Electric - Electrical Services in Michigan"
+tagTitle: "Projects"
+preloadImg: "/images/landing.png"
+preloadCSS: "/css/projects.css"
+permalink: "projects/"
+eleventyNavigation:
+  key: Projects
+  order: 300
+---
+
+<!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+  <h1 id="home-h">Our Projects</h1>
+  {% image './src/images/projectsbannerimg.png', 'electrical service projects', '',
+  'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery">
+  <div class="cs-container">
+    <div class="cs-image-group">
+      <!-- Row 1-->
+      <div class="cs-row cs-row-1">
+        {% image './src/images/portfolio/port-1.jpg', 'standby generator
+        installation', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px)
+        200px, 400px'%} {% image './src/images/portfolio/port-4.jpg', 'commercial
+        electrical panel upgrade', 'cs-picture cs-picture-2', 'lazy',
+        '(max-width: 600px) 200px, 400px'%} {% image
+        './src/images/portfolio/port-7.jpg', 'industrial lighting repair',
+        'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
+      </div>
+      <!-- Row 2 -->
+      <div class="cs-row cs-row-2">
+        {% image './src/images/portfolio/port-2.jpg', 'LED lighting conversion',
+        'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/portfolio/port-5.jpg', 'parking lot light repair',
+        'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
+        {% image './src/images/portfolio/port-8.jpg', 'floodlight installation',
+        'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
+      </div>
+      <!-- Row 3 -->
+      <div class="cs-row cs-row-3">
+        {% image './src/images/portfolio/port-3.jpg', 'residential wiring
+        project', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px,
+        400px'%} {% image './src/images/portfolio/port-6.jpg', 'commercial
+        electrical system installation', 'cs-picture cs-picture-2', 'lazy',
+        '(max-width: 600px) 200px, 400px'%} {% image
+        './src/images/portfolio/port-9.jpg', 'industrial power system
+        maintenance', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px)
+        200px, 400px'%}
+      </div>
+    </div>
+    <a href="/contact" class="button-solid">Get Free Quote</a>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">
+      Power Up <br />
+      With Us Today
+    </h2>
+    <p>
+      From electrical repairs to complete installations, More Power Electric
+      keeps Michigan homes, businesses, and facilities running smoothly. Contact
+      us today for dependable service and expert results.
+    </p>
+    <a href="/contact.html" class="button-solid">Free Estimate</a>
+  </div>
+  {% image './src/images/landing.png', 'electrical system upgrade', '',
+  'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
