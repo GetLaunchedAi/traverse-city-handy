@@ -1,3 +1,8 @@
+<<<<<<< Updated upstream
 .cache
 node_modules
 public
+=======
+# Node modules
+node_modules/
+>>>>>>> Stashed changes
