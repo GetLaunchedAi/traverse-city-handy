@@ -4,9 +4,9 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #FF9900; /* Bright Electric Orange */
-    --primaryShade: #FFB84D; /* Soft Amber Glow */
-    --primaryDark: #CC7A00; /* Deep Amber */
+    --primary: #F58220; /* Bold Orange */
+    --primaryShade: #FFAA52; /* Warm Amber Glow */
+    --primaryDark: #C45E00; /* Deep Burnt Orange */
     --bodyTextColor: #4e4b66;
     --bodyTextColorWhite: #fafbfc;
     --headerColor: #1a1a1a;
