@@ -504,12 +504,12 @@
   }
   #navigation .logo {
     margin-right: auto;
-    height: 3.75rem;
+    height: 80px;
     width: auto;
   }
   #navigation .logo img {
-    width: auto;
-    height: 100%;
+    width: 70px;
+    height: 80px;
   }
   #navigation #navbar-menu ul {
     padding: 0;
@@ -727,13 +727,13 @@
     display: inline-block;
     margin: auto;
     width: auto;
-    height: 3.125em;
+    height: 80px;
     margin-bottom: 1.875em;
     text-align: center;
   }
   #footer .left-section .logo img {
-    width: auto;
-    height: 100%;
+    width: 70px;
+    height: 80px;
     display: block;
   }
   #footer .left-section p {
