@@ -1,15 +1,15 @@
 {
-  "name": "Junk Force Michigan",
-  "email": "mike@junkforcemichigan.com",
-  "phone": "313-444-9540",
-  "phoneFormatted": "(313) 444-9540",
+  "name": "Traverse City Handy",
+  "email": "jobs@MichiganHandy.com",
+  "phone": "269-857-8000",
+  "phoneFormatted": "(269) 857-8000",
   "address": {
-    "lineOne": "Berkley, MI, United States",
+    "lineOne": "Traverse City, MI, United States",
     "lineTwo": "",
-    "city": "Berkley",
-    "county": "Oakland County",
+    "city": "Traverse City",
+    "county": "Grand Traverse County",
     "postcode": "",
-    "mapLink": "https://maps.app.goo.gl/f6bDJewmQSinmjRVA"
+    "mapLink": "https://maps.app.goo.gl/7MrT17CfKfd2uXw29"
   },
-  "domain": "https://junkforcemichigan.com/"
+  "domain": "https://TraverseCItyHandy.com/"
 }
